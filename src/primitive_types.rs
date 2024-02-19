@@ -24,4 +24,14 @@ fn main() {
     println!("{}", "b".len()); // 1
     println!("{}", "ক".len()); // 3
     println!("{}", "🔥".len()); // 4
+
+    //bool:true / false
+
+    //tuples 
+    let t: (i32,f64,char) = (45,7.8,'c');
+    let (x,y,z) = t; // let (_,_,x) = t;
+    // Accessing via index t.0 -> gives 45, t.1 -> gives 7.8, t.2 -> gives 'c'
+    let a = [1,2,3,4,5,6,7,8];
+    let a1 = a[0];
+    println!("Hello from index 0 : {}",a1);
 }
