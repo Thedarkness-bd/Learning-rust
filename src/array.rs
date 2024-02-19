@@ -37,4 +37,9 @@ fn main() {
     let ww = String::from("World!");
     let c_s = hh + &ww;
     println!("Concated String: {}", c_s);
+
+    //slice string
+    let text = String::from("String");
+    let slice = &text[0..4];
+    println!("Sliced string: {}", slice);
 }
